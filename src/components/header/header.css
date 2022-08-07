@@ -1,0 +1,63 @@
+.topbar {
+  background-color: green;
+  display: flex;
+  justify-content: space-around;
+  color: whitesmoke;
+  align-items: center;
+  padding: 0.3rem;
+}
+.phone,
+.mail {
+  margin-left: 10px;
+  align-items: center;
+  font-size: 16px;
+  justify-content: center;
+  color: whitesmoke;
+  text-transform: lowercase;
+}
+.left {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.logo {
+  margin-left: 4rem;
+  cursor: pointer;
+}
+span {
+  text-transform: uppercase;
+  color: green;
+  font-weight: bold;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  margin-right: 4rem;
+  font-weight: 500;
+}
+li {
+  cursor: pointer;
+}
+.active {
+  color: green;
+}
+ul li:last-child {
+  background-color: green;
+  color: white;
+  padding: 0.6rem 2rem;
+  cursor: pointer;
+}
+
+ul li:last-child:hover {
+  background-color: white;
+  border: 0.5px solid green;
+  color: green;
+  transition: none;
+}

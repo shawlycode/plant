@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.leftContent {
+  margin-top: 4rem;
+  width: 40%;
+}
+.rightContent {
+  width: 60%;
+}
+.rightContent img {
+  width: 100%;
+}
+.buttons {
+  margin-top: 4rem;
+}
+.btn-buy {
+  padding: 0.8rem 2.5rem;
+  background-color: green;
+  color: whitesmoke;
+  border: 1px solid green;
+  font-size: 16px;
+}
+.btn-buy:hover {
+  background: transparent;
+  cursor: pointer;
+  color: green;
+  font-size: 16px;
+  transform: smooth all 3ms ease;
+}
+.btn-us {
+  padding: 0.8rem 2.5rem;
+  color: green;
+  border: none;
+  border-radius: 0.1rem;
+  border-radius: 0.1rem;
+  font-size: 16px;
+  border: 1px solid green;
+  cursor: pointer;
+}
+.btn-us:hover {
+  color: black;
+  background-color: #c7f9cc;
+}
+.sub-title {
+  font-size: 20px;
+  font-weight: 500;
+}

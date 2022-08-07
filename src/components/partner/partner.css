@@ -1,0 +1,10 @@
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.list p {
+  font-size: 22px;
+  font-weight: 500;
+  color: grey;
+}

@@ -1,0 +1,38 @@
+.service h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+  opacity: 0.6;
+}
+.service h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: green;
+}
+.service {
+  margin-top: 2rem;
+}
+.services {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+.services .shipping {
+  max-width: 14rem;
+  padding: 1rem 2rem;
+  height: 18rem;
+  box-shadow: rgba(101, 144, 89, 0.806) 5px 40px 100px;
+  text-align: center;
+  margin-bottom: 3rem;
+  border-radius: 0.2rem;
+}
+.shipping:hover {
+  background: rgb(187, 206, 182);
+}
+.icon {
+  align-items: center;
+}
+.shipping p {
+  margin-top: 2rem;
+}
