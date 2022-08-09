@@ -61,3 +61,21 @@ ul li:last-child:hover {
   color: green;
   transition: none;
 }
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  background-color: green;
+  box-shadow: rgba(62, 93, 50, 0.379) 5px 6px 12px 2px,
+    rgba(7, 98, 34, 0.211) 3px 3px 7px -3px;
+  position: absolute;
+  left: -20px;
+}
+.circle div {
+  width: 80px;
+  height: 80px;
+  z-index: 200;
+  background-color: white;
+  position: absolute;
+  left: -60px;
+}
